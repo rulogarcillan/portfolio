@@ -1,0 +1,28 @@
+@import "~styles/colors.scss";
+footer {
+    background-color: $footer;
+    color: $background;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    
+    div {
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+span {
+    display: none
+}
+
+@media (min-width: 640px) {
+    span {
+        display: inline
+    }
+}
