@@ -17,9 +17,10 @@ html{
 
 
 body {
+  background: url(https://ultimateangular.com/assets/img/homepage/shields--featured.svg) repeat center 60px;
     position: relative;
     margin: 0;
-    padding-bottom: 6rem;
+    padding-bottom: 64px;
     min-height: 100%;
     font-family: 'MyWebFont'; //background-color: $background;/*
     /* background: url("./assets/images/wallpaper.jpg")  no-repeat fixed 50% 0px / cover;
@@ -27,16 +28,16 @@ body {
      filter: grayscale(100%);    */
  
 
-     background: url("./assets/images/wallpaper.jpg") center center no-repeat;
+    // background: url("./assets/images/wallpaper.jpg") center center no-repeat;
    
      
-     background-size: cover;
-     background-attachment: fixed;
+    // background-size: cover;
+    // background-attachment: fixed;
 
-     background-color: $foreground;
+     background-color: $color-2;
   }
 
-
+/*
   body:before {
     content: "";
     position: absolute;
@@ -54,4 +55,4 @@ body {
     -moz-transition   : all 2s linear;
     -webkit-transition: all 2s linear;
     -o-transition     : all 2s linear;
-}
+}*/

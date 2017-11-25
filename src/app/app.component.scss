@@ -1,0 +1,11 @@
+.index {
+    padding-top: 80px;
+}
+
+@media (min-width: 640px) {
+    .index {
+        margin: 0 auto;
+        width: 400px;
+        padding-top: 100px;
+    }
+}
