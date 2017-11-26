@@ -1,5 +1,4 @@
 @import "~styles/colors.scss";
-
 .img {
     max-width: 136px;
     -webkit-border-radius: 100%;
@@ -18,38 +17,42 @@ ul {
     width: 100%;
     margin: 0;
     padding: 0;
-
     li {
+         :hover {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+            transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+        }
         font-size: 3em;
-        padding: 8px;
-      //  color: $accent;
+        padding: 8px; //  color: $accent;
         display: inline-block;
     }
 }
 
 .menu-principal {
-   /* display: table;
+    /* display: table;
     margin: 0 auto;*/
     text-align: center;
-  
 }
 
-.datos-perfil{
-    h3{
-        color:$color-7;
+.datos-perfil {
+    h3 {
+        color: $color-7;
     }
-    span{
+    span {
         color: $color-6;
     }
     background-color: $color-4;
     padding-top: 48px;
     padding-bottom: 36px;
-
+    @media (min-width: 640px) {
+        border-radius: 20px 20px 0 0;
+    }
 }
 
-.link-perfil{
-    background-color:$color-5;
+.link-perfil {
+    background-color: $color-5;
     padding: 8px;
     padding: 8px 32px;
-    
 }
