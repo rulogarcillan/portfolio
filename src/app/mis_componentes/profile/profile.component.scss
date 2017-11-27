@@ -46,13 +46,16 @@ ul {
     background-color: $color-4;
     padding-top: 48px;
     padding-bottom: 36px;
-    @media (min-width: 640px) {
-        border-radius: 20px 20px 0 0;
-    }
 }
 
 .link-perfil {
     background-color: $color-5;
     padding: 8px;
     padding: 8px 32px;
+}
+
+.showBorder {
+    @media (min-width: 640px) {
+        border-radius: 20px 20px 0 0;
+    }
 }

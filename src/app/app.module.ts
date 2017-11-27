@@ -4,21 +4,27 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { FooterComponent } from './footer/footer.component';
-import { ProfileComponent } from './profile/profile.component';
+import { FooterComponent } from './mis_componentes/footer/footer.component';
+
+import { IndexComponent } from './index/index.component';
+import { ProfileComponent } from './mis_componentes/profile/profile.component';
+import { ProfileDataService } from './profile-data.service';
+import { DossierComponent } from './dossier/dossier.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    ProfileComponent
+    ProfileComponent,
+    IndexComponent,
+    DossierComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ProfileDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

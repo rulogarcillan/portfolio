@@ -1,0 +1,11 @@
+@import "~styles/colors.scss";
+@media (min-width: 640px) {
+    .dossier {
+        width: 350px;
+    }
+    .busca {
+        background-color: $color-3;
+        min-height: 100% ;
+
+    }
+}

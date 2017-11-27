@@ -1,0 +1,14 @@
+<div class="menu-principal">
+    <div class="datos-perfil" [ngClass]="{'showBorder' : rounded==='true'}">
+        <img class="img" [src]="profileData.urlFoto" alt="">
+        <h3>{{profileData.nombre}}</h3>
+        <span>{{profileData.descripcion}}</span>
+    </div>
+    <div class="link-perfil">
+        <ul>
+            <li *ngFor="let boton of profileData.enlaces" (click)="clickButton(boton)">
+                <img class="img-icon" [src]="boton.urlImagen" alt="">
+            </li>
+        </ul>
+    </div>
+</div>
