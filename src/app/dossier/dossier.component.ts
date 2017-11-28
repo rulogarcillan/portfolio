@@ -28,4 +28,8 @@ export class DossierComponent implements OnInit {
     return this._profileDataService.getProfileData();
   }
 
+  print(): void {
+    console.log('as');
+  }
+
 }
