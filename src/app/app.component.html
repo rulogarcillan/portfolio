@@ -1,4 +1,9 @@
 <div>
-  <router-outlet></router-outlet>
+
+
+  <app-profile rounded="false" [profileData]="getProfileData()" (onClickButton)="onClickButton($event)"></app-profile>
+  <app-redes [netButtons]="getNetButtons()" (onClickButton)="onClickButton($event)"></app-redes>
+
+
   <app-footer></app-footer>
 </div>

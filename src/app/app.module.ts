@@ -5,11 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './mis_componentes/footer/footer.component';
-
-import { IndexComponent } from './index/index.component';
 import { ProfileComponent } from './mis_componentes/profile/profile.component';
 import { ProfileDataService } from './profile-data.service';
 import { DossierComponent } from './dossier/dossier.component';
+import { RedesComponent } from './mis_componentes/redes/redes.component';
 
 
 @NgModule({
@@ -17,8 +16,8 @@ import { DossierComponent } from './dossier/dossier.component';
     AppComponent,
     FooterComponent,
     ProfileComponent,
-    IndexComponent,
-    DossierComponent
+    DossierComponent,
+    RedesComponent
   ],
   imports: [
     BrowserModule,

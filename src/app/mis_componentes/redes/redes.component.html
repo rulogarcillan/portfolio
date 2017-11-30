@@ -1,0 +1,7 @@
+<div class="redes">
+    <ul>
+        <li *ngFor="let boton of netButtons" (click)="clickButton(boton)">
+            <img class="img-icon" [src]="boton.urlImagen" alt="">
+        </li>
+    </ul>
+</div>
