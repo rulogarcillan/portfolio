@@ -12,10 +12,6 @@ export class ProfileDataService {
   };
 
   private _redes: Boton[] = [{
-    urlImagen: '../../assets/images/developer.png',
-    link: '/dossier',
-    external: false
-  }, {
     urlImagen: '../../assets/images/linkedin.svg',
     link: 'https://www.linkedin.com/in/raul-rodriguez-concepcion',
     external: true
@@ -26,6 +22,10 @@ export class ProfileDataService {
   }, {
     urlImagen: '../../assets/images/gmail.svg',
     link: 'mailto:raulrcs@gmail.com',
+    external: true
+  }, {
+    urlImagen: '../../assets/images/playstore.png',
+    link: 'https://play.google.com/store/apps/developer?id=Ra%C3%BAl%20R.&hl=es',
     external: true
   }];
 

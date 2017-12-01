@@ -1,80 +1,23 @@
 @import "~styles/colors.scss";
-
-/*-
-@media (min-width: 640px) {
-    .dossier-lateral {
-        height: 100%;
-        width: 400px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: $color-1;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-    .dossier-contenido {
-        transition: margin-left .5s;
-        padding: 16px;
-        margin-left: 400px;
-    }
-    .busca {
-        background-color: $color-3;
-    }
-}*/
-
-.categorias {
+.no-mostrar-menu {
     display: none;
+    @media (min-width: 768px) {
+        display: block;
+    }
 }
 
-@media (min-width: 703px) {
-    .container {
-        overflow-y: auto;
-    }
-    .dossier-lateral {
+.menu-lateral {
+    @media (min-width: 768px) {
+        width: 332px;
+        position: absolute;
         height: 100%;
-        width: 400px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        bottom: 16px;
-        overflow-x: hidden;
-        background-color: $color-7;
-        section {
-            margin-bottom: 3.1em;
-        }
+        background: $color-6;
     }
-     ::-webkit-scrollbar {
-        width: 0px;
-        background: transparent;
-        /* make scrollbar transparent */
-    }
-    .categorias {
-        display: block;
-        padding: 0px 16px 0px 16px;
-        color: $color-1;
-        div {
-            padding: 6px;
-            display: inline-block;
-            margin-bottom: 6px;
-             :hover {
-                background-color: $color-8;
-                cursor: pointer;
-            }
-        }
-        span {
-            background-color: $color-5;
-            border-radius: 2px;
-            padding: 6px;
-        }
-    }
-    .dossier-contenido {
-        margin-left: 400px;
+}
 
-        div{
-            margin: 8px;
-        }
+.dossier {
+    padding: 16px;
+    @media (min-width: 768px) {
+        margin-left: 332px;
     }
 }

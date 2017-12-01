@@ -12,7 +12,9 @@ export class ProfileComponent implements OnInit {
 
   @Input() rounded = true;
   @Input() profileData: ProfileData;
-  @Output() onClickButton = new EventEmitter<Boton>();
+  @Output() onClickButton = new EventEmitter<Boolean>();
+
+  private abrir = false;
 
   constructor() { }
 
@@ -20,11 +22,11 @@ export class ProfileComponent implements OnInit {
 
   }
 
+  getBorderRadius(): boolean { return this.rounded; }
 
-  getBorderRadius(): Boolean { return this.rounded; }
-
-  clickButton(boton: Boton) {
-    this.onClickButton.emit(boton);
+  clickButton() {
+    this.abrir = !this.abrir;
+    this.onClickButton.emit(this.abrir);
   }
 
 }

@@ -1,0 +1,25 @@
+@import "~styles/colors.scss";
+.categorias {
+
+    h4{
+        margin-top: 12px;
+    }
+
+    padding: 16px;
+    background: $color-6;
+    color: $color-1;
+    .tag {
+        padding: 6px;
+        display: inline-block;
+        margin-bottom: 6px;
+         :hover {
+            background-color: $color-8;
+            cursor: pointer;
+        }
+        span {
+            background-color: $color-5;
+            border-radius: 2px;
+            padding: 6px;
+        }
+    }
+}

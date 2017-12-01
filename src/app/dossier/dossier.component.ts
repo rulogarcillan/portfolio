@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProfileDataService } from '../profile-data.service';
-import { Router } from '@angular/router';
-import { ProfileData } from '../mis_componentes/profile/profile-data';
 import { Boton } from '../mis_componentes/profile/boton';
+import { ProfileData } from '../mis_componentes/profile/profile-data';
 
 @Component({
   selector: 'app-dossier',
@@ -11,7 +10,8 @@ import { Boton } from '../mis_componentes/profile/boton';
 })
 export class DossierComponent implements OnInit {
 
-  constructor(private _profileDataService: ProfileDataService, private _router: Router) { }
+  constructor(private _profileDataService: ProfileDataService) { }
+  private isAbrir = false;
 
   ngOnInit() {
   }
@@ -20,16 +20,20 @@ export class DossierComponent implements OnInit {
     if (boton.external) {
       window.open(boton.link, '_blank');
     } else {
-      this._router.navigateByUrl(boton.link);
+      // TODO
     }
+  }
+
+  onMenuOpen(isAbrir: boolean) {
+    this.isAbrir = isAbrir;
   }
 
   getProfileData(): ProfileData {
     return this._profileDataService.getProfileData();
   }
 
-  print(): void {
-    console.log('as');
+  getNetButtons(): Boton[] {
+    return this._profileDataService.getNetButtons();
   }
 
 }

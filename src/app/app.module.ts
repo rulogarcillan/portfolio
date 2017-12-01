@@ -7,8 +7,9 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './mis_componentes/footer/footer.component';
 import { ProfileComponent } from './mis_componentes/profile/profile.component';
 import { ProfileDataService } from './profile-data.service';
-import { DossierComponent } from './dossier/dossier.component';
 import { RedesComponent } from './mis_componentes/redes/redes.component';
+import { BurbujasComponent } from './mis_componentes/burbujas/burbujas.component';
+import { DossierComponent } from './dossier/dossier.component';
 
 
 @NgModule({
@@ -16,8 +17,9 @@ import { RedesComponent } from './mis_componentes/redes/redes.component';
     AppComponent,
     FooterComponent,
     ProfileComponent,
-    DossierComponent,
-    RedesComponent
+    RedesComponent,
+    BurbujasComponent,
+    DossierComponent
   ],
   imports: [
     BrowserModule,
