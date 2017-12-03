@@ -7,7 +7,8 @@ export class ProfileDataService {
 
   private _profileData: ProfileData = {
     urlFoto: '../../assets/images/yo2.png',
-    nombre: 'Raúl Rodríguez Concepción',
+    nombre: 'Raúl',
+    apellidos: 'Rodríguez',
     descripcion: 'Full Stack Sofware Developer'
   };
 

@@ -1,0 +1,77 @@
+@import "~styles/colors.scss";
+.job {
+
+    .skills{
+        margin-top: 10px;
+    }
+    margin-bottom: 25px;
+    .pading-transparente {
+        box-shadow: 0 0 0 6px $color-5;
+    }
+    .puntero {
+        background: $acent;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        left: -35px;
+        top: 3px;
+        border-radius: 50%;
+    }
+    position: relative;
+    .date {
+        padding-top: 3px;
+        opacity: .6;
+        font-size: 0.7rem;
+        margin-bottom: 5px;
+    }
+    .empresa {
+        font-size: 1.2rem;
+        line-height: 1.45;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .cliente {
+        margin-bottom: 5px;
+    }
+    .cargo {
+        text-transform: capitalize;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: $texto-oscuro;
+    }
+    .funcionalidades .funciones {
+        margin-bottom: 0.55rem;
+        width: 100%;
+        padding-right: 3.5rem;
+        margin-bottom: 0;
+    }
+    h5 {
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+    }
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+        margin-top: 0px;
+        font-size: 1.2rem;
+        font-size: 0.88em;
+    }
+
+}
+
+
+.tag {
+
+    display: inline-block;
+    margin-bottom: 6px;
+     :hover {
+        background-color: $color-8;
+        cursor: pointer;
+    }
+    span {
+        background-color: $color-7;
+        border-radius: 2px;
+        padding: 6px;
+        margin: 2px;
+    }
+}

@@ -11,7 +11,7 @@ import { ProfileData } from '../mis_componentes/profile/profile-data';
 export class DossierComponent implements OnInit {
 
   constructor(private _profileDataService: ProfileDataService) { }
-  private isAbrir = false;
+  public isAbrir = false;
 
   ngOnInit() {
   }

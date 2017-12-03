@@ -10,6 +10,7 @@ import { ProfileDataService } from './profile-data.service';
 import { RedesComponent } from './mis_componentes/redes/redes.component';
 import { BurbujasComponent } from './mis_componentes/burbujas/burbujas.component';
 import { DossierComponent } from './dossier/dossier.component';
+import { JobComponent } from './mis_componentes/job/job.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { DossierComponent } from './dossier/dossier.component';
     ProfileComponent,
     RedesComponent,
     BurbujasComponent,
-    DossierComponent
+    DossierComponent,
+    JobComponent
   ],
   imports: [
     BrowserModule,

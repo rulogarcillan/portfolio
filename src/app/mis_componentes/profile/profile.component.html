@@ -1,15 +1,17 @@
-<div class="datos-perfil" [ngClass]="{'showBorder' : rounded==='true'}">
-    <img class="img" [src]="profileData.urlFoto" alt="">
+<div class="datos-perfil" [ngClass]="{'showBorder' : rounded}">
+    <div class="t">
+
+
+        <img class="img" [src]="profileData.urlFoto" alt="">
+    </div>
     <div>
-        <h3>{{profileData.nombre}}</h3>
+        <span class="nombre">{{profileData.nombre}}</span>
+        <span class="apellido">{{profileData.apellidos}}</span>
         <span class="sub-titulo">{{profileData.descripcion}}</span>
     </div>
     <div class="menu" (click)="clickButton()">
         <span>
             <i class="fa fa-bars"></i>
         </span>
-
-
     </div>
-
 </div>
