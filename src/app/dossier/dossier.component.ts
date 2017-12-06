@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Timeline } from './../mis_componentes/job/timeline';
+import { Component, OnInit, Input } from '@angular/core';
 import { ProfileDataService } from '../profile-data.service';
 import { Boton } from '../mis_componentes/profile/boton';
 import { ProfileData } from '../mis_componentes/profile/profile-data';
+import { TimelineService } from '../timeline.service';
 
 @Component({
   selector: 'app-dossier',
@@ -10,7 +12,8 @@ import { ProfileData } from '../mis_componentes/profile/profile-data';
 })
 export class DossierComponent implements OnInit {
 
-  constructor(private _profileDataService: ProfileDataService) { }
+  @Input() jobs: Timeline[];
+  constructor(private _profileDataService: ProfileDataService, private _timelineServices: TimelineService) { }
   public isAbrir = false;
 
   ngOnInit() {
@@ -34,6 +37,10 @@ export class DossierComponent implements OnInit {
 
   getNetButtons(): Boton[] {
     return this._profileDataService.getNetButtons();
+  }
+
+  getTimeline(): Timeline[] {
+    return this._timelineServices.getTimeline();
   }
 
 }

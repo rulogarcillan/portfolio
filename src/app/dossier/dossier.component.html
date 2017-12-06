@@ -13,7 +13,6 @@
 <section class="dossier a-difuminado ">
 
   <div class="time-line">
-    <app-job></app-job>
-    <app-job></app-job>
+    <app-job *ngFor="let job of getTimeline()" [timeline]="job" ></app-job>
   </div>
 </section>

@@ -61,7 +61,7 @@
 
 
 .tag {
-
+    transition: 0.4s;
     display: inline-block;
     margin-bottom: 6px;
      :hover {
@@ -73,5 +73,10 @@
         border-radius: 2px;
         padding: 6px;
         margin: 2px;
+        text-transform: uppercase;
     }
+}
+
+.acordion {
+display: none;
 }

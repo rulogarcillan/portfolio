@@ -1,3 +1,5 @@
+import { TimelineService } from './timeline.service';
+import { Timeline } from './mis_componentes/job/timeline';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -27,7 +29,7 @@ import { JobComponent } from './mis_componentes/job/job.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ProfileDataService],
+  providers: [ProfileDataService, TimelineService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
