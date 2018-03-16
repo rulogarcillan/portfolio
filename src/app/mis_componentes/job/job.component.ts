@@ -30,7 +30,7 @@ export class JobComponent implements OnInit {
 
     if (this.visible) {
       return {
-        'max-height': '400px',
+        'max-height': '100%',
         'transition': 'max-height 0.2s ease-out'
       };
     } else {

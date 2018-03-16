@@ -26,7 +26,6 @@ export class TimelineService {
     tecnologias: ['PL/SQL', 'SQL', 'oracle']
 
   }, {
-
     tipo: 'trabajo',
     periodo: 'Septiembre 2016 – Agosto 2017',
     empresa: 'Altran',
@@ -37,7 +36,6 @@ export class TimelineService {
     tecnologias: ['Java', 'Flex', 'AngularJs', 'Html5', 'css3', 'nodeJs', 'bootstrap', 'sql', 'oracle', 'pl/sql', 'servicios rest', 'gulp']
   },
   {
-
     tipo: 'trabajo',
     periodo: 'Junio 2016 – Septiembre 2016',
     empresa: 'Altran',
@@ -56,19 +54,18 @@ export class TimelineService {
     funcionalidades: 'Proyecto Auto Brokers, comercializar los dos nuevos productos, Auto Protect y Moto Protect, gestionados en la plataforma de AGD bajo la marca de AXA. ',
     funciones: 'Documentación de los análisis funcionales y toma de requisitos de las diferentes aplicaciones y sistemas afectados en el proyecto Auto Brokers'
     , tecnologias: []
-  }, {
-
+  }, 
+  {
     tipo: 'trabajo',
     periodo: 'Febrero 2016 - Abril 2016',
     empresa: 'Altran',
     cliente: 'Caser ',
     cargo: 'Analista programador',
     funcionalidades: 'Proyecto piloto - migración y enmascarado de un producto de la web mediador de caser a jquery y bootstrap',
-    funciones: 'Migrar los JavaScript antiguos a la librería jquery, los xhtml a  html5 con formato bootstrap y adaptar los css para que la web sea los más parecido al portal del mediador además conseguir que la web sea responsive y cross browser ',
+    funciones: 'Migrar los JavaScript antiguos a la librería jquery, los xhtml a html5 con formato bootstrap y adaptar los css para que la web sea los más parecido al portal del mediador además conseguir que la web sea responsive y cross browser ',
     tecnologias: ['javascript', 'jquery', 'css3', 'html5', 'bootstrap']
   },
   {
-
     tipo: 'trabajo',
     periodo: 'Octubre 2015 – Febrero 2016',
     empresa: 'Altran',
@@ -77,8 +74,77 @@ export class TimelineService {
     funcionalidades: 'Automatismos sobre pólizas para acciones de retención de carteras las cuales incluyen mejoras y cambios en la aplicación gestión del módulo de retención (SORET). Procesos de descentralización de pólizas de la WM, suplementos masivos que engloban acciones de retención, suplementos con extornos de prima en acciones de retención, simulación/consulta sobre una póliza para conocer los términos de la  próxima renovación.',
     funciones: 'Análisis funcional de los procesos,  programación de los procedimientos y cambios necesarios en los paquetes, pantallas y objetos de BBDD necesarios para implementar las nuevas funcionalidades requeridas por el cliente',
     tecnologias: ['PL/SQL', 'SQL', 'Oracle', 'Oracle forms', 'java', 'flex']
+  },
+  {
+    tipo: 'trabajo',
+    periodo: 'Marzo 2013 – Septiembre 2015',
+    empresa: 'Altran',
+    cliente: 'Mapfre ',
+    cargo: 'Analista funcional, analista programador',
+    funcionalidades: 'Mantenimiento del nucleo TRON21 de mapfre.',
+    funciones: 'Análisis funcional de los paquetes, procedimientos, procesos diarios y mensuales necesarios para el mantenimiento del backed TRON21 de Mapfre, contabilidad diaria, generación de asientos, siniestralidad de Autos. Analisis y creación de diseños técnicos para evolutivos y nuevos proyectos como el NSE (nuevo sistema de emisión de autos).',
+    tecnologias: ['PL/SQL', 'SQL', 'Oracle', 'Host', 'JCL']
+  },
+  {
+    tipo: 'trabajo',
+    periodo: 'Febrero 2012 – Febrero 2013',
+    empresa: 'Altran',
+    cliente: 'Caser ',
+    cargo: 'Analista programador',
+    funcionalidades: 'Migración de los sistemas de asistencia de AS400 a SVG',
+    funciones: 'Análisis de los paquetes, procedimientos y procesos necesarios en el desarrollo de las pantallas y paquetes de impresión, fraccionamiento de pago abierto y participación de beneficios para nuevos productos de SVG',
+    tecnologias: ['PL/SQL', 'SQL', 'Oracle', 'Oracle forms']
+  },
+  {
+    tipo: 'trabajo',
+    periodo: 'Junio 2011 - Enero 2012',
+    empresa: 'Future Space',
+    cliente: 'Caser ',
+    cargo: 'Analista programador',
+    funcionalidades: 'Seguros Vida. Migración del teleproceso.',
+    funciones: 'Programación, análisis y desarrollo sobre el teleproceso para su migración a SVG. Creación de pantallas, impresiones, simulaciones, altas y pruebas de usuario.',
+    tecnologias: ['PL/SQL', 'SQL', 'Oracle', 'Oracle forms']
+  },
+  {
+    tipo: 'trabajo',
+    periodo: 'Junio 2011 - Enero 2012',
+    empresa: 'Future Space',
+    cliente: 'Caser ',
+    cargo: 'Analista programador',
+    funcionalidades: 'Seguros Vida. Migración del teleproceso.',
+    funciones: 'Programación, análisis y desarrollo sobre el teleproceso para su migración a SVG. Creación de pantallas, impresiones, simulaciones, altas y pruebas de usuario.',
+    tecnologias: ['PL/SQL', 'SQL', 'Oracle', 'Oracle forms']
+  },
+  {
+    tipo: 'trabajo',
+    periodo: '  Diciembre 2010 - febrero 2011',
+    empresa: 'Wunderman',
+    cliente: 'Wunderman ',
+    cargo: 'Programador',
+    funcionalidades: 'Generación de cartas para el usuario informando del vencimiento de su contrato. Programación de paquetes, acceso a bases de datos y creación de pantallas.',
+    funciones: 'Programación',
+    tecnologias: ['PL/SQL', 'SQL', 'vB .net']
+  },
+  {
+    tipo: 'trabajo',
+    periodo: 'Mayo 2008 - Mayo 2010',
+    empresa: 'Bull - Siconet',
+    cliente: 'Mapfre ',
+    cargo: 'Programador',
+    funcionalidades: 'Desarrollo y pruebas PL/SQL Arquitectura Mapfre Versión 2 de diferentes aplicativos de Mapfre Familiar y Mapfre Empresas. Proyectos como consultas caución, caja salud, tron-21, caja Madrid venta de seguros de mutualidad.',
+    funciones: 'Programación',
+    tecnologias: ['PL/SQL', 'SQL', 'Oracle']
+  },
+  {
+    tipo: 'trabajo',
+    periodo: 'Abril 2007 - Enero 2008',
+    empresa: 'Armatek',
+    cliente: 'Armatek ',
+    cargo: 'Programador Junior',
+    funcionalidades: 'Beca en prácticas como desarrollador',
+    funciones: 'Beca',
+    tecnologias: ['MySql', 'ABAP4', 'vB .net', 'SQL']
   }
-
   ];
 
   constructor() { }
