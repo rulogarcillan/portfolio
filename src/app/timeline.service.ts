@@ -5,9 +5,20 @@ import { Timeline } from './mis_componentes/job/timeline';
 export class TimelineService {
 
 
-  private _timeline: Timeline[] = [{
+  private _timeline: Timeline[] = [
+    {
+      tipo: 'trabajo',
+      periodo: 'Marzo 2018 - Actualidad',
+      empresa: 'Altran',
+      cliente: 'Axa ',
+      cargo: 'Team leader',
+      funcionalidades: 'Miembro del development team y actual lider de equipo',
+      funciones: 'Liderazgo del equipo ecomerce, desarrollo de productos, funnels, gestión de los procesos de leads, trabajamos con metodologías agiles',
+      tecnologias: ['reacjs', 'java', 'javascript', 'html5', 'css3', 'gwt', 'jira', 'scrum']
+    },
+    {
     tipo: 'trabajo',
-    periodo: 'Septiembre 2017 – actual',
+    periodo: 'Septiembre 2017 – Marzo 2018',
     empresa: 'Altran',
     cliente: 'Caser',
     cargo: 'Analista Programador',
@@ -93,16 +104,6 @@ export class TimelineService {
     cargo: 'Analista programador',
     funcionalidades: 'Migración de los sistemas de asistencia de AS400 a SVG',
     funciones: 'Análisis de los paquetes, procedimientos y procesos necesarios en el desarrollo de las pantallas y paquetes de impresión, fraccionamiento de pago abierto y participación de beneficios para nuevos productos de SVG',
-    tecnologias: ['PL/SQL', 'SQL', 'Oracle', 'Oracle forms']
-  },
-  {
-    tipo: 'trabajo',
-    periodo: 'Junio 2011 - Enero 2012',
-    empresa: 'Future Space',
-    cliente: 'Caser ',
-    cargo: 'Analista programador',
-    funcionalidades: 'Seguros Vida. Migración del teleproceso.',
-    funciones: 'Programación, análisis y desarrollo sobre el teleproceso para su migración a SVG. Creación de pantallas, impresiones, simulaciones, altas y pruebas de usuario.',
     tecnologias: ['PL/SQL', 'SQL', 'Oracle', 'Oracle forms']
   },
   {
