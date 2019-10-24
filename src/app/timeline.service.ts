@@ -8,13 +8,23 @@ export class TimelineService {
   private _timeline: Timeline[] = [
     {
       tipo: 'trabajo',
-      periodo: 'Marzo 2018 - Actualidad',
+      periodo: 'Abril 2019 - Actualidad',
+      empresa: 'Talentomobile',
+      cliente: 'Banco Santander',
+      cargo: 'Senior Android Developer',
+      funcionalidades: 'Moneybit es una aplicación pfm (personal financial management) donde podras gestionar todas tus  finanzas en un solo sitio.',
+      funciones: 'Desarrolador y responsable de la parte android en la aplicación moneybit, Soy el actual desarrollador frontend de la aplicación nativa de android. Como tareas principales diseño la arquitectura de la aplicación siguiendo los principios SOLID, migración de todo el código legacy de java a kotlin, cambios en la arquitectura de MVP a MVVM e integración de todas los nuevas features en la apliación.',
+      tecnologias: ['android', 'kotlin', 'java', 'MVVM', 'databinding', 'livedata','retrofit', 'dagger2', 'jira', 'scrum', 'git', 'api rest', 'clean arquitecture', 'solid']
+    },
+    {
+      tipo: 'trabajo',
+      periodo: 'Marzo 2018 - Marzo 2019',
       empresa: 'Altran',
-      cliente: 'Axa ',
+      cliente: 'Axa',
       cargo: 'Team leader',
       funcionalidades: 'Miembro del development team y actual lider de equipo',
-      funciones: 'Liderazgo del equipo ecomerce, desarrollo de productos, funnels, gestión de los procesos de leads, trabajamos con metodologías agiles',
-      tecnologias: ['reacjs', 'java', 'javascript', 'html5', 'css3', 'gwt', 'jira', 'scrum']
+      funciones: 'Liderazgo del equipo ecomerce, desarrollo de productos, funnels, gestión de los procesos de leads, trabajamos con metodologías agiles y framework scrum',
+      tecnologias: ['reacjs', 'java', 'javascript', 'html5', 'css3', 'gwt', 'jira', 'scrum', 'git']
     },
     {
     tipo: 'trabajo',
