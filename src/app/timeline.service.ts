@@ -4,16 +4,45 @@ import { Timeline } from './mis_componentes/job/timeline';
 @Injectable()
 export class TimelineService {
 
-
   private _timeline: Timeline[] = [
     {
       tipo: 'trabajo',
-      periodo: 'Abril 2019 - Actualidad',
+      periodo: 'Abril 2021 - Actualmente',
+      empresa: 'OpenBank',
+      cliente: 'OpenBank',
+      cargo: 'Senior Android Analyst || Tech leader',
+      funcionalidades: 'Desarrollo, análisis, lider técnico android',
+      funciones: 'Desarrollar aplaciones android, analizar, liderar squad y perseverar la arquitectura, enfrentarse a problemas técnicos y buscar la mejor solución, revisiones de código etc.',
+      tecnologias: ['Ingles', 'android', 'kotlin', 'MVVM', 'databinding', 'livedata','retrofit', 'koin', 'jira', 'scrum', 'git', 'api rest', 'clean arquitecture', 'solid', 'integración continua', 'stack atlassian']
+    },
+    {
+      tipo: 'trabajo',
+      periodo: 'Noviembre 2020 - Abril 2021',
+      empresa: 'Talentomobile',
+      cliente: 'OpenBank',
+      cargo: 'Senior Android Analyst || Tech leader',
+      funcionalidades: 'Desarrollo, análisis, lider técnico android',
+      funciones: 'Desarrollar aplaciones android, analizar, liderar squad y perseverar la arquitectura, enfrentarse a problemas técnicos y buscar la mejor solución, revisiones de código etc.',
+      tecnologias: ['Ingles', 'android', 'kotlin', 'MVVM', 'databinding', 'livedata','retrofit', 'koin', 'jira', 'scrum', 'git', 'api rest', 'clean arquitecture', 'solid', 'integración continua', 'stack atlassian']
+    },
+    {
+      tipo: 'trabajo',
+      periodo: 'Abril 2020 - Octubre 2020',
       empresa: 'Talentomobile',
       cliente: 'Banco Santander',
       cargo: 'Senior Android Developer',
-      funcionalidades: 'Moneybit es una aplicación pfm (personal financial management) donde podras gestionar todas tus  finanzas en un solo sitio.',
-      funciones: 'Desarrolador y responsable de la parte android en la aplicación moneybit, Soy el actual desarrollador frontend de la aplicación nativa de android. Como tareas principales diseño la arquitectura de la aplicación siguiendo los principios SOLID, migración de todo el código legacy de java a kotlin, cambios en la arquitectura de MVP a MVVM e integración de todas los nuevas features en la apliación.',
+      funcionalidades: 'Desarrollo, a´nalisis',
+      funciones: 'Desarrolador y ánalisis de la parte android en aplicaciones para santander global tech',
+      tecnologias: ['android', 'kotlin', 'MVVM', 'databinding', 'livedata','retrofit', 'dagger2', 'jira', 'scrum', 'git', 'api rest', 'clean arquitecture', 'solid']
+    },
+    {
+      tipo: 'trabajo',
+      periodo: 'Abril 2019 - Abril 2020',
+      empresa: 'Talentomobile',
+      cliente: 'Banco Santander',
+      cargo: 'Senior Android Developer',
+      funcionalidades: 'Moneybit es una aplicación pfm (personal financial management) donde podras gestionar todas tus finanzas en un solo sitio.',
+      funciones: 'Desarrolador y responsable de la parte android en la aplicación moneybit, desarrollador frontend de la aplicación nativa de android. Como tareas principales diseño la arquitectura de la aplicación siguiendo los principios SOLID, migración de todo el código legacy de java a kotlin, cambios en la arquitectura de MVP a MVVM e integración de todas los nuevas features en la apliación.',
       tecnologias: ['android', 'kotlin', 'java', 'MVVM', 'databinding', 'livedata','retrofit', 'dagger2', 'jira', 'scrum', 'git', 'api rest', 'clean arquitecture', 'solid']
     },
     {
